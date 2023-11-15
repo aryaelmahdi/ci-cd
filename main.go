@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"tugas/praktikum/config"
-	"tugas/praktikum/utils/database"
+	"tugas/config"
+	"tugas/utils/database"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"tugas/praktikum/controller"
+	"tugas/controller"
 
 	echojwt "github.com/labstack/echo-jwt"
 	"github.com/labstack/echo/v4"
