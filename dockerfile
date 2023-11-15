@@ -2,7 +2,7 @@ FROM golang:1.21-alpine
 
 WORKDIR /app
 
-COPY 23_ci-cd /app/
+COPY . .
 
 RUN go build -o main .
 
