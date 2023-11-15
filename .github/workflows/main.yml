@@ -41,4 +41,4 @@ jobs:
             docker stop ${{ secrets.CONTAINER_NAME }}
             docker rm ${{ secrets.CONTAINER_NAME }}
             docker rmi ${{ secrets.DOCKERHUB_USERNAME }}/tugas
-            docker run --name ${{ secrets.CONTAINER_NAME }} -p 8080:8080 -d -e SECRET=${{ secrets.SECRET }} -e ProjectID=${{ secrets.PROJECTID }} -e DatabaseURL=${{ secrets.DATABASEURL }} -e GOOCREDS=${{ secrets.GOOCREDS }}/tugas
+            docker run --name ${{ secrets.CONTAINER_NAME }} -p 8080:8081 -d -e SECRET=${{ secrets.SECRET }} -e ProjectID=${{ secrets.PROJECTID }} -e DatabaseURL=${{ secrets.DATABASEURL }} -e GOOCREDS=${{ secrets.GOOCREDS }}/tugas
