@@ -2,8 +2,8 @@ package controller
 
 import (
 	"net/http"
-	"tugas/praktikum/helper"
-	"tugas/praktikum/model"
+	"tugas/helper"
+	"tugas/model"
 
 	"github.com/labstack/echo/v4"
 )
